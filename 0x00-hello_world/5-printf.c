@@ -1,12 +1,10 @@
 #include <stdio.h>
-
-/*
- * main - Entry 
+/**
+ * main - the main function
  *
- * Description: Prints a string with proper grammar, but the outcome is a piece of art
- *
- * Return: 0 if successful
+ * Return: returns 0 after program executes
  */
+
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
