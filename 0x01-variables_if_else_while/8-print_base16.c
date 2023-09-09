@@ -6,16 +6,22 @@
  */
 int main(void)
 {
-int i;
-char c;
-i = 0;
-while (i < 10) /* loop for digits */
-{
-putchar(i + '0');
-i++;
+    int i;
+    char c;
+
+    i = 0;
+    while (i < 10) /* loop for digits */
+    {
+        putchar(i + '0');
+        i++;
+    }
+    c = 'a';
+    while (c <= 'f') /* loop for letters */
+    {
+        putchar(c);
+        c++;
+    }
+    putchar('\n'); /* new line */
+    return (0);
 }
-c = 'a';
-while (c <= 'f') /* loop for letters */
-{
-putchar(c);
-c++;
+
