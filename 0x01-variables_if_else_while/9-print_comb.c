@@ -9,10 +9,9 @@ for (i = 0; i <= 9; i++)
 putchar(i + '0');
         /* print a comma and a space using putchar if the digit is not the last one (9) */
 if (i != 9)
-putchar(',');
-putchar(' ');
+	putchar(',');
+	/* putchar(' ');*/
 }
-/* return 0 to indicate successful execution */
 return (0);
 }
 
