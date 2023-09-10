@@ -12,9 +12,7 @@ if (i != 9)
 putchar(',');
 putchar(' ');
 }
-    /* print a newline character using putchar */
-putchar('\n');
-    /* return 0 to indicate successful execution */
+/* return 0 to indicate successful execution */
 return (0);
 }
 
