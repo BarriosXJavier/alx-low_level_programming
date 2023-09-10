@@ -1,16 +1,22 @@
 #include <stdio.h>
+
+/**
+ * main - all possible combos of single-digit numbers
+ */
 int main(void)
 {
-int i;
-    /* loop over the digits from 0 to 9 */
-for (i = 0; i <= 9; i++)
+int i, j;
+for (i = 0; i < 10; i++)
 {
-        /* print the digit using putchar and adding '0' to convert to ASCII */
+for (j = i + 1; j < 10; j++)
+{
 putchar(i + '0');
-        /* print a comma and a space using putchar if the digit is not the last one (9) */
-if (i != 9)
-	putchar(',');
-	/* putchar(' ');*/
+putchar(j + '0');
+if (i != 8 || j != 9)
+{
+putchar(',');
+}           
+}
 }
 return (0);
 }
