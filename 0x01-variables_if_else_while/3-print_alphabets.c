@@ -11,11 +11,11 @@ while (ch <= 'Z') /* loop until last uppercase letter */
 	{
         	if (ch > 'z' && ch < 'A') /* print new line and reset ch */
 	{
-	putchar('\n');
-	ch = 'A';
+		putchar('\n');
+		ch = 'A';
 	}
-	putchar(ch); /* print current letter */
-	ch++; /* next letter */
+		putchar(ch); /* print current letter */
+		ch++; /* next letter */
 	}
 putchar('\n'); /* final new line */
 return (0);
