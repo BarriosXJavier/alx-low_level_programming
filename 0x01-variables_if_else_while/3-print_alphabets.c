@@ -9,7 +9,7 @@ int main(void)
 int ch = 'a'; /* first lowercase letter */
 while (ch <= 'Z') /* loop until last uppercase letter */
 	{
-        if (ch > 'z' && ch < 'A') /* print new line and reset ch */
+        	if (ch > 'z' && ch < 'A') /* print new line and reset ch */
 	{
 	putchar('\n');
 	ch = 'A';
