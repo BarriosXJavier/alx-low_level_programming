@@ -11,8 +11,8 @@ int i;
 /* Loop from 0 to 9 */
 for (i = 0; i < 10; i++)
 {
-      /** Print the number followed by a new line */
-printf("%d\n", i);
+      /** Print the number */
+printf("%d", i);
 }
 return (0);
 }
