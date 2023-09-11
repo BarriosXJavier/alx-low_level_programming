@@ -5,7 +5,7 @@
  * Return: 0 if successful
  */
 int main(void)
-{
+	{
 int ch = 'a'; /* first lowercase letter */
 while (ch <= 'Z') /* loop until last uppercase letter */
 	{
@@ -19,5 +19,5 @@ while (ch <= 'Z') /* loop until last uppercase letter */
 	}
 putchar('\n'); /* final new line */
 return (0);
-}
+	}
 
