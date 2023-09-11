@@ -16,7 +16,7 @@ printf("%d", i);
 }
 
 /* Add a newline character at the end */
-    printf("\n");
+printf("\n");
 return (0);
 }
 
