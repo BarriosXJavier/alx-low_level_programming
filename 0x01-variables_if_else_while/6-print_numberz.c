@@ -9,7 +9,7 @@
 int main(void)
 {
 int digit = 0; /* Initialize a variable to store the current digit (0-9) */
-while (digit <= 9) /* Loop until digit reaches 9 */
+	while (digit <= 9) /* Loop until digit reaches 9 */
 	{
 		putchar(digit + '0'); /* Convert to ASCII character */
 		digit++; /* Increment the digit for the next iteration */
