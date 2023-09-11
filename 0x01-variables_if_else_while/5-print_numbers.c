@@ -14,6 +14,9 @@ for (i = 0; i < 10; i++)
       /** Print the number */
 printf("%d", i);
 }
+
+/* Add a newline character at the end */
+    printf("\n");
 return (0);
 }
 
