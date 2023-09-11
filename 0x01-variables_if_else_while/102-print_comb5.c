@@ -7,11 +7,12 @@ i *
  */
 int main(void)
 {
-int i, j;
-for (i = 0; i < 100; i++)
+    int i, j;
+
+    for (i = 0; i < 100; i++)
 	{
         for (j = i + 1; j < 100; j++)
-        {
+	{
 		putchar((i / 10) + '0');
 		putchar((i % 10) + '0');
 		putchar(' ');
@@ -22,10 +23,9 @@ for (i = 0; i < 100; i++)
 		putchar(',');
 		putchar(' ');
 	}
-        }
+	}
 	}
 
-	putchar('\n');
-
-	return (0);
+putchar('\n');
+return (0);
 }	
