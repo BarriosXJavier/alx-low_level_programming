@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -combinations of two two-digit numbers
-i *
+ * main - Print combinations of two two-digit numbers
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
