@@ -25,7 +25,7 @@ int main(void)
 	bef1 = (bef / l);
 	bef2 = (bef % l);
 	aft1 = (aft / l);
-	afte = (aft % l);
+	aft2 = (aft % l);
 	for (i = 92; i < 99; ++i)
 	{
 		printf(", %lu", aft1 + (aft2 /l));
