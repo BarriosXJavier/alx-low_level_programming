@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * times_table - Print the 9 times table starting at 0
@@ -25,7 +26,7 @@ void times_table(void)
 				_putchar(k + '0');
 			} else if (k >=10)
 			{
-				_putchar(' ,');
+				_putchar(',');
 				_putchar(' ');
 				_putchar((k / 10) + '0');
 				_putchar((k % 10) + '0');
