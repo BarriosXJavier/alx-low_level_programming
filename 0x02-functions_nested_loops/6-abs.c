@@ -1,13 +1,19 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _abs -absolute value of an integer
  * Return: absolute value of int
  */
-int _abs(int n)
+int main(void)
 {
-	if (n => 0)
-	{
-		return (n);
-	}
-	return (-n);
+	int r;
+	r = abs(-1);
+	printf("%d\n", r);
+	r = _abs(0);
+	printf("%d\n",r);
+	r = _abs(1);
+	printf("%d\n", r);
+	r = _abs(-90);
+	printf("%d\n", r);
+	return(0);
 }
