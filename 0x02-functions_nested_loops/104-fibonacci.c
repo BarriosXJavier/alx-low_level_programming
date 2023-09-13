@@ -1,40 +1,35 @@
 #include <stdio.h>
+
 /**
- * main - Fibbonacci
- * Return 0
+ * main - Prints the first 98 Fibonacci numbers
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	unsigned long int i;
-	unsigned long int bef = 1;
-	unsigned long int aft = 2;
-	unsigned long int l = 10000000;
-	unsigned long int bef1;
-	unsigned long int bef2;
-	unsigned long int aft1;
-	unsigned long int aft2;
+    /* Declare and initialize variables */
+	unsigned long a = 1, b = 2;
 
-	printf("%lu", bef);
+    /* Print the first two Fibonacci numbers */
+	printf("%lu, %lu", a, b);
 
-	for (i = 1; i < 91; i++)
-	{
-		printf(", %lu", aft);
-		aft += bef;
-		bef = aft - bef;
+    /* Calculate and print the next 96 Fibonacci numbers */
+	for (int i = 2; i < 98; i++)
+    	{
+        /* Calculate the next Fibonacci number */
+	unsigned long next = a + b;
+
+        /* Print the next Fibonacci number */
+	printf(", %lu", next);
+
+        /* Update a and b for the next iteration */
+	a = b;
+	b = next;
 	}
-	bef1 = (bef / l);
-	bef2 = (bef % l);
-	aft1 = (aft / l);
-	aft2 = (aft % l);
-	for (i = 92; i < 99; ++i)
-	{
-		printf(", %lu", aft1 + (aft2 /l));
-		printf("%lu", aft2 % l);
-		aft1 = aft1 + bef1;
-		bef1 = aft1 - bef1;
-		aft2 = aft2 + bef2;
-		bef2 = aft2 - bef2;
-	}
+
+    /* Print a newline at the end */
 	printf("\n");
+
+    /* Return 0 to indicate successful execution */
 	return (0);
 }
