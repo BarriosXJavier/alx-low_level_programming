@@ -5,6 +5,7 @@
  * Return: 1 for upper letter or 0 if not
  */
 int _isupper(int x)
+
 {
 	if (x >= 65 && <= 90)
 	{
