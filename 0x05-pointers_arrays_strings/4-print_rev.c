@@ -3,7 +3,7 @@
 
 /**
  * print_rev - prints a string n reverse
- * @: - The string
+ * @s: - The string
  * Return: void
  */
 
