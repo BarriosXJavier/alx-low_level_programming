@@ -22,7 +22,7 @@ int _sqrt_recursion(int n)
  *
  * Return: the natural square root
  */
-int sqrt(int n, int i)
+int _sqrt(int n, int i)
 {
 	int sqrt = i * i;
 
