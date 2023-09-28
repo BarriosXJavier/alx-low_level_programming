@@ -40,6 +40,7 @@ int compare(char *s, int n1, int n2)
 int is_palindrome(char *S)
 {
 	int len = _strlen_recursion(S);
+
 	if (len <= 1)
 	return (1);
 	return (compare(S, 0, len - 1));
