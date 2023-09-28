@@ -12,8 +12,8 @@ int _sqrt(int n, int i);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
-	return -1; /* Square root of a negative number is undefined */
-	return _sqrt(n, 1); /* Call _sqrt with the correct arguments */
+	return (-1); /* Square root of a negative number is undefined */
+	return (_sqrt(n, 1)); /* Call _sqrt with the correct arguments */
 }
 
 /**
@@ -28,9 +28,9 @@ int _sqrt(int n, int i)
 	int sqrt = i * i;
 
 	if (sqrt > n)
-		return -1; /* Square root not found */
+		return (-1); /* Square root not found */
 	if (sqrt == n)
-		return i;
+		return (i);
 
-	return _sqrt(n, i + 1);
+	return (_sqrt(n, i + 1));
 }
